@@ -1,0 +1,15 @@
+{
+  "name": "el-reino-de-las-frutas",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio src/index.jsx",
+    "build": "remotion render src/index.jsx ReinoDeLasFrutas out/video.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.300",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.300"
+  }
+}
